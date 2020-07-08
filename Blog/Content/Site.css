@@ -39,7 +39,6 @@ textarea {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 }
 
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
@@ -56,15 +55,15 @@ textarea {
     border-color: #4B92DB;
 }
 
-    .navbar-inverse .navbar-nav > li > a {
-        color: #4B92DB;
-    }
+.navbar-inverse .navbar-nav > li > a {
+    color: #4B92DB;
+}
 
-        .navbar-inverse .navbar-nav > li > a:hover,
-        .navbar-inverse .navbar-nav > li > a:focus {
-            color: #0C2340;
-            background-color: #4B92DB;
-        }
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #0C2340;
+    background-color: #4B92DB;
+ }
 
 .dropdown-menu {
     position: absolute;
@@ -89,23 +88,23 @@ textarea {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
-    .dropdown-menu > li > a {
-        display: block;
-        padding: 3px 20px;
-        clear: both;
-        font-weight: 400;
-        line-height: 1.42857143;
-        background-color: #0C2340;
-        color: #4B92DB;
-        white-space: nowrap;
-    }
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    background-color: #0C2340;
+    color: #4B92DB;
+    white-space: nowrap;
+}
 
-    .dropdown-menu > li > a:hover,
-    .dropdown-menu > li > a:focus {
-        color: #0C2340;
-        text-decoration: none;
-        background-color: #4B92DB;
-    }
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #0C2340;
+    text-decoration: none;
+    background-color: #4B92DB;
+}
 
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
